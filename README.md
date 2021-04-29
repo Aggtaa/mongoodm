@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAggtaa%2Fmongoodm.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FAggtaa%2Fmongoodm?ref=badge_shield)
+
 ### document decorators
 * @document decorators on a class register it in ODM
 * alternative syntax is Registry.addDocument(User, { ... })
@@ -46,3 +48,7 @@ class User {
     name: string;
 }
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAggtaa%2Fmongoodm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FAggtaa%2Fmongoodm?ref=badge_large)
