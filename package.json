@@ -7,6 +7,7 @@
         "prepare": "tsc",
         "test": "npx nyc --reporter=html --reporter=text ts-mocha",
         "coverage": "npx nyc --reporter=html --reporter=text ts-mocha",
+        "codecov": "npx nyc report --reporter=text-lcov > coverage.lcov && codecov --token=${CODECOV_TOKEN}",
         "lint": "eslint . --ext .ts,.tsx"
     },
     "keywords": [
