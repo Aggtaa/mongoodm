@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "target": "es6",
+      "rootDir": "src",
+      "outDir": "lib",
+      "module": "commonjs",
+      "removeComments": false,
+      "moduleResolution": "node",
+      "allowJs": false,
+      "importHelpers": true,
+      "inlineSourceMap": false,
+      "sourceMap": false,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "resolveJsonModule": false,
+      "lib": [ "es6" ],
+      "skipLibCheck": true,
+      "declaration": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules/**/*"]
+  }
+  
