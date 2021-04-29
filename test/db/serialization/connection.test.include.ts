@@ -11,7 +11,7 @@ describe('connection tests', function () {
 
         shared.conn = await Connection.create({
             host: 'localhost',
-            port: 37017,
+            port: shared.mongoPort,
             database: 'mongoodm',
         });
 
